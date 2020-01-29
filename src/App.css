@@ -56,6 +56,9 @@ body, #root{
   border: 1px dashed grey;
   border-radius: 5px;
 }
+#root-component-container div{
+  margin: 4px !important;
+}
 
 
 #root-component-container:hover{
@@ -71,4 +74,7 @@ body, #root{
   padding: 0px 16px 0px 16px;
   margin-top: -22px;
   color: white;
+}
+.cell-style:hover{
+  box-shadow: 10px 10px 10px black !important;
 }
